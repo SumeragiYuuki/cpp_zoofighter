@@ -152,10 +152,9 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GAME.cpp" />
     <ClCompile Include="GAME_CENTRAL.cpp" />
-    <ClCompile Include="GAME_SCENE.cpp" />
     <ClCompile Include="gmain.cpp" />
+    <ClCompile Include="TRANSITION.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resource.rc" />
@@ -167,6 +166,8 @@
     <ClInclude Include="GAME.h" />
     <ClInclude Include="GAME_CENTRAL.h" />
     <ClInclude Include="GAME_SCENE.h" />
+    <ClInclude Include="TITLE.h" />
+    <ClInclude Include="TRANSITION.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -14,6 +14,9 @@
     <Filter Include="CENTRAL\SCENE">
       <UniqueIdentifier>{d70a99b0-80c1-4087-ba6a-dc5314f6fb23}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CENTRAL\TRANSITION">
+      <UniqueIdentifier>{d4bbc4e4-c0ed-4926-9a09-f6c481868c37}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resource.rc">
@@ -29,14 +32,11 @@
     <ClCompile Include="gmain.cpp">
       <Filter>game</Filter>
     </ClCompile>
-    <ClCompile Include="GAME.cpp">
-      <Filter>game</Filter>
-    </ClCompile>
-    <ClCompile Include="GAME_SCENE.cpp">
-      <Filter>CENTRAL\SCENE</Filter>
-    </ClCompile>
     <ClCompile Include="GAME_CENTRAL.cpp">
       <Filter>CENTRAL</Filter>
+    </ClCompile>
+    <ClCompile Include="TRANSITION.cpp">
+      <Filter>CENTRAL\TRANSITION</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +48,12 @@
     </ClInclude>
     <ClInclude Include="GAME_CENTRAL.h">
       <Filter>CENTRAL</Filter>
+    </ClInclude>
+    <ClInclude Include="TRANSITION.h">
+      <Filter>CENTRAL\TRANSITION</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.h">
+      <Filter>CENTRAL\SCENE</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
